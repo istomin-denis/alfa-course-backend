@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Navigator;
+  src: url("/fonts/Manrope-latin.woff2") format("woff2");
+  font-weight: 200 800;
+  font-display: swap;
+  unicode-range: U+0000-024F;
+}
+@font-face {
+  font-family: Navigator;
+  src: url("/fonts/Manrope-variable.woff2") format("woff2");
+  font-weight: 200 800;
+  font-display: swap;
+}
+:root {
+  font-family: Navigator, Arial, sans-serif;
+  color: #151515;
+  background: #f5f6f8;
+  font-synthesis: none;
+  --red: #ef3124;
+  --ink: #151515;
+  --muted: #62666d;
+  --line: #e2e3e5;
+  --surface: #fff;
+  --radius: 24px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
